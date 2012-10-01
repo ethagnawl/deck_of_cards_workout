@@ -59,14 +59,13 @@ members = [
     'Ace'
 ]
 
-_exercises = [
+
+deck_of_cards_workout.init = (_exercises = [
     'Crunches'
     'Pull-ups'
     'Push-ups'
     'Squats'
-]
-
-deck_of_cards_workout.init = ->
+]) ->
 
     exercises = {}
     for exercise, i in _exercises
